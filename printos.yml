@@ -1,0 +1,6 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+  - name: this is a hello world
+    debug: var=ansible_os_family
